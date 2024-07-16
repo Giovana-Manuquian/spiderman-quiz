@@ -12,6 +12,7 @@
   
   .question h2 {
     word-break: break-word;
+    margin-top: -2%;
     margin-left: 10%;
     margin-right: 10%;
   }

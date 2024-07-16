@@ -12,7 +12,7 @@ const Quiz = () => {
 
   const handleAnswer = (selectedOption) => {
     if (selectedOption.isCorrect) {
-      setScore(score + 1);
+      setScore((prevScore) => prevScore + 10); // Incrementa o score por 10
       setShowFeedback(true);
     } else {
       setShowFeedback(false);

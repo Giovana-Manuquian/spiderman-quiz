@@ -8,11 +8,14 @@ const Result = ({ score, totalQuestions, restartQuiz }) => {
     restartQuiz();
   };
 
+  // Calcula o total de pontos possíveis como o número de perguntas multiplicado por 10
+  const totalPoints = totalQuestions * 10;
+
   return (
     <div className="container">
       <h2 className="finaltitle">{title}</h2>
       <p className="score">
-        Your score: {score}/{totalQuestions}
+        Your score: {score}/{totalPoints}
       </p>
       <div className="restart">
         <button onClick={handleRestartQuiz}>Restart Quiz</button>

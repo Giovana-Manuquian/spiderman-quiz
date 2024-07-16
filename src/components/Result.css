@@ -14,16 +14,17 @@
   .score {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.3rem;
+    font-size: 20px;
     color: rgb(211, 209, 209);
   }
 
   .restart button {
     margin-top: 20px;
-    width: 100px;
-    height: 30px;
+    width: 110px;
+    height: 40px;
     border-radius: 10px;
     font-size: 15px;
+    font-weight: 550;
     background: rgb(201, 199, 199);
   }
 
